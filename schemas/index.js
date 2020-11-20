@@ -11,7 +11,7 @@ module.exports = () => {
     mongoose.connect(
       MONGO_URL,
       {
-        dbName: "reactdb",
+        dbName: "testDB",
       },
       (error) => {
         if (error) {
